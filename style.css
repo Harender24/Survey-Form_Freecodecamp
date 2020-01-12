@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.2em;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+}
+#description {
+  font-style: italic;
+}
+#survey-form {
+  padding: 50px;
+
+  margin: 0 auto 50px auto;
+  text-align: center;
+  max-width: 550px;
+  background-color: #826b6b;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+label {
+  padding: 10px 0;
+}
+input,
+select {
+  padding: 10px;
+}
+textarea {
+  padding: 30px;
+}
+button {
+  padding: 14px;
+  margin: 10px auto 20px auto;
+
+  width: 100%;
+}
